@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="blog.css">
+    <style>
+      .accomplishments {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+      </style>
+  </head>
+  <body>
+    <h1>Patrick Lewis</h1>
+    <img src="profile_pic.png" alt="Man,Myth,Legend" width="300" height="200" />
+    <!--About me-->
+     <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+      sollicitudin fringilla sollicitudin. Quisque malesuada nulla nisi, ut
+      fermentum nibh imperdiet at. Nam sodales ipsum vel maximus pellentesque.
+      Suspendisse placerat orci quis scelerisque faucibus. Quisque purus nulla,
+      pellentesque ut ultrices eu, pretium sit amet est. Nam elit odio, interdum
+      et egestas in, auctor sed nibh. Sed viverra congue orci, sit amet semper
+      sapien luctus quis. Pellentesque ultricies ipsum ante, quis varius diam
+      vehicula eget. Sed mattis sem a mattis tincidunt. In fermentum nec erat
+      nec rhoncus. Praesent odio tellus, aliquam quis porta eget, viverra sed
+      nulla. Maecenas vitae sodales ex. Donec porta et augue ut pretium.
+      Suspendisse laoreet ante massa, ornare fermentum metus accumsan et.
+      Aliquam sed dignissim tortor, nec tempus risus. Aenean at neque dapibus,
+      vulputate diam eu, sollicitudin tellus. Fusce bibendum id mauris lacinia
+      iaculis. Phasellus varius leo in lacus pellentesque viverra. Duis et
+      tempus orci. Suspendisse dictum congue arcu.
+    </p>
+    
+    <!--Accomplishment table-->
+    <div class="accomplishments">
+      <table>
+        <thead>
+          <tr>
+            <th>Accomplishment</th>
+            <th>Year</th>
+            <th>Award</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Biggest Sales Record</td>
+            <td>1995</td>
+            <td>10k Bonus</td>
+          </tr>
+          <tr>
+            <td>Ended World Hunger</td>
+            <td>2017</td>
+            <td>Nobel Peace Prize</td>
+          </tr>
+          <tr>
+            <td>Invented Next Big Thing</td>
+            <td>2021</td>
+            <td>Humanitarian Award</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>  
+    <ul>
+     <!---Bulleted highlights--> 
+      <li>1978 Birth Year</li>
+      <li>1998 Got Married</li>
+      <li>2018 Retired in the Hamptons</li> 
+    </ul>
+    <!--link to google me-->
+    <a href="https://www.google.com">Google Me!</a>
+    <!--Survey-->
+    <h3>Please Take This Short Survey</h3>
+    <form>
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email"><br><br>
+      <label for="yesp">Yes, please send me lots of emails</label>
+      <input type="radio" id="yesp" name="yesp">
+      <label for="nope">No, please do not send me any emails</label>
+      <input type="radio" id="nope" name="nope"><br><br>
+      <p>How did you hear about us</p>
+      <label for="facebook">Facebook</label>
+      <input type="checkbox" id="facebook" name="facebook"><br>
+      <label for="newspaper">Newspaper</label>
+      <input type="checkbox" id="newspaper" name="newspaper"><br>
+      <label for="referral">Referral</label>
+      <input type="checkbox" id="referral" name="referral"><br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
